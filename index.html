@@ -195,26 +195,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   top: 2px; right: 0; height: 40px; width: auto; ">
   👆 <b style="color:#FFFFFF;"><strong>AR CLICK HERE</strong></b></button>
   
-  <section class="attribution">
-        <div>
-          <span>
-            <h1 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:Avenir Next LT Pro">Hear Regis' Story</b>
-              <p align="center">
-              <span>
-              <audio controls autoplay loop id="sound">
-                <source src="Sound/Dog_Bark_Panting_13.242 sec.wav"/>
-              </audio
-            ></span> 
-             </p>
-            </span>
-         </div>
-   </section>
-   <script>    
-        window.addEventListener("load", () => {
-          Sync("#model-viewer", "#sound");
-        });
-      </script>   
-   
+  
    <div class="centerImage">   
    <button onclick="location.href='https://avertek.github.io/Regis-Test-AR/'" type="button" slot="" 
                     style="z-index: 9; background-color: #FFFFFF; border-radius: 8px; border: 1 px solid white; position: static; height: 35px; width: auto;
@@ -257,6 +238,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </model-viewer>
 
+ <section class="attribution">
+        <div>
+          <span>
+            <h1 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:Avenir Next LT Pro">Hear Regis' Story</b>
+              <p align="center">
+              <span>
+              <audio controls autoplay loop id="sound">
+                <source src="Sound/Dog_Bark_Panting_13.242 sec.wav"/>
+              </audio
+            ></span> 
+             </p>
+            </span>
+         </div>
+   </section>
+   <script>    
+        window.addEventListener("load", () => {
+          Sync("#model-viewer", "#sound");
+        });
+      </script>   
+   
 <script type="module">
   const modelViewer = document.querySelector('#dimension-demo');
 
